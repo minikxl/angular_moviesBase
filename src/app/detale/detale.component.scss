@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 300px;
+    }
+
+    article{
+        margin: 20px;
+        padding: 1em;
+        padding-right: 0;
+        h4 {
+            margin: 1px;
+        }    
+        span{
+            font-weight: bold;
+        }
+
+    }
+}
+
+footer{
+    transition: all ease-in-out .2s;
+    text-align: center;
+    margin: 5%;
+    &:hover{
+        cursor: pointer;
+        color: lime;
+        font-size: large;
+    }
+}

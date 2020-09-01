@@ -1,0 +1,14 @@
+<section *ngIf="film">
+    <h2> {{ film.tytul }} </h2>
+    <div class="container" >
+        <img src="{{ baseURL + film.plakat }}" alt="" width="100%">
+        <article>
+            <h4>Tytuł: {{film.tytul}}</h4>
+            <h4>Rok: {{film.rok}}</h4>
+            <p><span>Opis:</span> {{ film.opis }}</p>
+        </article>
+    </div>
+</section>
+<footer>
+    <h3 (click)=back()>|POWRÓT|</h3>
+</footer>
